@@ -24,3 +24,11 @@ logs
 !.env.example
 
 /app/generated/prisma
+
+
+# Ignorar o banco de dados SQLite
+banco.sqlite
+backend/banco.sqlite
+
+# Garantir que os módulos do backend não subam
+backend/node_modules/
